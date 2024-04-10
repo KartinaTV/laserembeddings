@@ -1,16 +1,21 @@
 [tool.poetry]
-name = "laserembeddings"
-version = "1.1.2"
-description = "Production-ready LASER multilingual embeddings"
-authors = ["yannvgn <hi@yannvgn.io>"]
+name = "laserembeddings-fork"
+version = "1.2.0"
+description = "Production-ready LASER multilingual embeddings (Fork)"
+authors = ["yannvgn <hi@yannvgn.io>", ]
+maintainers = ["Aleh Haidash <aleh.haidash@gmail.com>",]
 license = "BSD-3-Clause"
-homepage = "https://github.com/yannvgn/laserembeddings"
-repository = "https://github.com/yannvgn/laserembeddings"
+homepage = "https://github.com/KartinaTV/laserembeddings"
+repository = "https://github.com/KartinaTV/laserembeddings"
 readme = "README.md"
 
+packages = [
+    { include = "laserembeddings"},
+]
+
 [tool.poetry.dependencies]
-python = "^3.6.2"
-torch = "^1.0.1.post2"
+python = "^3.8.0"
+torch = "^2.0.0"
 subword-nmt = "^0.3.6"
 numpy = "^1.15.4"
 sacremoses = "0.0.35"
