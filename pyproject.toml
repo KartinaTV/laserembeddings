@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "laserembeddings-fork"
-version = "1.2.1"
+version = "1.2.2"
 description = "Production-ready LASER multilingual embeddings (Fork)"
 authors = ["yannvgn <hi@yannvgn.io>", ]
 maintainers = ["Aleh Haidash <aleh.haidash@gmail.com>",]
